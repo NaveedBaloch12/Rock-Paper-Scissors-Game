@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Handjet';
+    letter-spacing: .15rem;
+    text-align: center;
+    list-style: none;
+}
+
+body {
+    background-color: white;
+    color: black;
+    font-size: 25px;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+.theme {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+#theme__span {
+    cursor: pointer;
+    margin: 10px;
+}
+
+#light__mode {
+    display: none;
+}
+
+header h1{
+    margin-block: 1.5rem;
+}
+
+button{
+    padding: 5px 1rem;
+    margin-block: 1rem;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#selections{
+    margin-block: 1rem;
+}
+
+#winner{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-block: 1rem;
+}
+
+#player__scores{
+    font-weight: bold;
+}
+
+
+.rules{
+    margin: 2rem;
+}
+
+
+/* ============================================================= */
+
+#restart__contanier{
+    margin-top: 3rem;
+    display: none;
+}
+
+@media (min-width: 500px) {
+    body
+    button{
+        margin: 1rem;
+
+    }
+    .scores_record{
+        display: flex;
+        justify-content: space-around;
+    }
+
+}
